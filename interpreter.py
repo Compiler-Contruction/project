@@ -122,9 +122,9 @@ class Interpreter:
 what_to_execute = {
     "instructions": [
         ("LOAD_VALUE", 0),
-        ("STORE_NAME", 0),  # Assuming you want to store the value in the first variable (a)
+        ("STORE_NAME", 0),  #store the value in the first variable (a)
         ("LOAD_VALUE", 1),
-        ("STORE_NAME", 1),  # Assuming you want to store the value in the second variable (b)
+        ("STORE_NAME", 1),  #store the value in the second variable (b)
         ("LOAD_NAME", 0),
         ("LOAD_NAME", 1),
         ("ADD_TWO_VALUES", None),  # Add a and b
@@ -145,7 +145,6 @@ what_to_execute = {
     "numbers": [10, 2],
     "names": ["a", "b"]
 }
-
 
 
 # Create an instance of the Interpreter
